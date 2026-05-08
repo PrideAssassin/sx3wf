@@ -6,21 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>791</width>
-    <height>574</height>
+    <width>796</width>
+    <height>544</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>WIFI破解v1.0</string>
+   <string>sx3wf_V3.0</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>10</y>
-      <width>72</width>
-      <height>15</height>
+      <x>9</x>
+      <y>9</y>
+      <width>36</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -30,43 +30,30 @@
    <widget class="QListView" name="wifi_list">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>40</y>
-      <width>521</width>
-      <height>261</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
       <x>10</x>
-      <y>490</y>
-      <width>71</width>
-      <height>31</height>
+      <y>50</y>
+      <width>541</width>
+      <height>231</height>
      </rect>
-    </property>
-    <property name="text">
-     <string>字典路径：</string>
     </property>
    </widget>
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>490</y>
-      <width>571</width>
-      <height>31</height>
+      <y>370</y>
+      <width>351</width>
+      <height>41</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="select_dict">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>490</y>
-      <width>121</width>
-      <height>31</height>
+      <x>450</x>
+      <y>370</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
@@ -77,77 +64,25 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>310</y>
-      <width>331</width>
-      <height>171</height>
+      <y>290</y>
+      <width>551</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="title">
      <string>当前选中信息</string>
     </property>
-    <widget class="QLabel" name="pass_type">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>110</y>
-       <width>231</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>未知</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="safe">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>80</y>
-       <width>231</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>未知</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="ssid">
      <property name="geometry">
       <rect>
-       <x>90</x>
+       <x>80</x>
        <y>20</y>
        <width>231</width>
        <height>31</height>
       </rect>
      </property>
      <property name="text">
-      <string>未选择WIFI信息</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>110</y>
-       <width>71</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>密码类型:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>80</y>
-       <width>71</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>安全类型:</string>
+      <string>未选中WIFI</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -155,7 +90,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>71</width>
+       <width>51</width>
        <height>31</height>
       </rect>
      </property>
@@ -163,40 +98,14 @@
       <string>SSID:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>50</y>
-       <width>71</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>验证算法:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="auth">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>50</y>
-       <width>231</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>未知</string>
-     </property>
-    </widget>
    </widget>
    <widget class="QPushButton" name="scan_wifi">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>310</y>
-      <width>181</width>
-      <height>171</height>
+      <x>20</x>
+      <y>430</y>
+      <width>211</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
@@ -206,10 +115,10 @@
    <widget class="QPushButton" name="Start_Crack">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>360</y>
-      <width>251</width>
-      <height>121</height>
+      <x>310</x>
+      <y>430</y>
+      <width>241</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
@@ -219,48 +128,63 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>10</y>
-      <width>72</width>
-      <height>15</height>
+      <x>570</x>
+      <y>0</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>破解状态</string>
+     <string>运行状态：</string>
     </property>
    </widget>
-   <widget class="QLabel" name="NIC">
+   <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>50</x>
       <y>10</y>
-      <width>381</width>
-      <height>16</height>
+      <width>501</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="maxCount">
+     <number>21</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>60</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>未获取到当前电脑的网卡信息</string>
+     <string>字典路径：</string>
     </property>
    </widget>
    <widget class="QListWidget" name="status_list">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>40</y>
-      <width>256</width>
-      <height>311</height>
+      <x>560</x>
+      <y>50</y>
+      <width>221</width>
+      <height>451</height>
      </rect>
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>791</width>
-     <height>26</height>
+     <width>796</width>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
