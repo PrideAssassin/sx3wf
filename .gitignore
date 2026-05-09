@@ -1,1 +1,4 @@
 .idea/
+dist/
+build/
+sx3wf.spec
